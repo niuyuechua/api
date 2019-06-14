@@ -22,7 +22,7 @@ class PayController extends Controller
             'app_id'=>'2016092500596049',
             'method'=>'alipay.trade.wap.pay',
             'charset'=>'utf-8',
-            'sign_type'=>'RSA',
+            'sign_type'=>'RSA2',
             'timestamp'=>date('Y-m-d H:i:s'),
             'version'=>'1.0',
             'biz_content'=>json_encode($biz_content)
